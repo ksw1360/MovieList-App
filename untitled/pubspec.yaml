@@ -1,0 +1,26 @@
+name: untitled
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # ★★★ 여기! dependencies 바로 아래, flutter와 같은 줄에 있어야 합니다! ★★★
+  http: ^1.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+    # 여기에 있던 http는 지우세요!
+
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
